@@ -1,7 +1,7 @@
 module Luban
   module Deployment
     module Packages
-      class Java < Luban::Deployment::Service::Base
+      class Java < Luban::Deployment::Package::Base
         def self.decompose_version(version)
           vers = version.split('-')
           { major_version: vers[0], patch_level: vers[1] }

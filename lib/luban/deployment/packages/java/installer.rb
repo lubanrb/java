@@ -2,7 +2,7 @@ module Luban
   module Deployment
     module Packages
       class Java
-        class Installer < Luban::Deployment::Service::Installer
+        class Installer < Luban::Deployment::Package::Installer
           define_executable 'java'
 
           def package_dist; task.opts.dist; end
