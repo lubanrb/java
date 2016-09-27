@@ -9,9 +9,9 @@ module Luban
 
         protected
 
-        def setup_install_tasks
+        def setup_provision_tasks
           super
-          commands[:install].option :dist, "Binary distribution"
+          provision_tasks[:install].option :dist, "Binary distribution"
         end
       end
     end
