@@ -5,7 +5,7 @@ require 'luban/deployment/packages/java/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "luban-java"
-  spec.version       = Luban::Deployment::Packages::Java::VERSION
+  spec.version       = Luban::Deployment::Packages::JAVA_VERSION
   spec.authors       = ["Rubyist Chi"]
   spec.email         = ["rubyist.chi@gmail.com"]
 
